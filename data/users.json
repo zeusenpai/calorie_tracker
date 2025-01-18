@@ -9,5 +9,16 @@
         "goal": 3,
         "bmr": 1640.0,
         "tdee": 2255
+    },
+    {
+        "name": "Priya",
+        "age": 20,
+        "gender": "F",
+        "height": 158.0,
+        "weight": 45.0,
+        "activity_level": 1,
+        "goal": 2,
+        "bmr": 1176.5,
+        "tdee": 1662
     }
 ]

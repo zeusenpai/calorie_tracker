@@ -19,6 +19,7 @@ def add_user():
     height = float(input("Height(in cm): "))
     weight = float(input("Weight(in kg): "))
     print()
+        
     while True:
         print("Activity Level: \n1.Not Active\n2.Lightly Active\n3.Moderately Active\n4.Very Active\n5.Extremely Active")
         activity_level = int(input("Enter selection(1 - 5): "))
@@ -55,7 +56,7 @@ while True:
     if(ch == 1):
         add_user()
     elif(ch == 2):
-        view_users
+        view_users()
     elif(ch == 3):
         pass
     elif(ch == 4):
@@ -64,4 +65,3 @@ while True:
         print("INVALID CHOICE!")
         print()
 
-    break
