@@ -1,0 +1,13 @@
+[
+    {
+        "name": "John",
+        "age": 23,
+        "gender": "M",
+        "height": 168.0,
+        "weight": 70.0,
+        "activity_level": 2,
+        "goal": 3,
+        "bmr": 1640.0,
+        "tdee": 2255
+    }
+]
