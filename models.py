@@ -35,11 +35,11 @@ class User:
         multiplier = activity_multipliers.get(self.activity_level)
         tdee = self.bmr * multiplier
 
-        if self.goal.lower() == "lose":
+        if self.goal == 1:
             tdee -= 500 
-        elif self.goal.lower() == "gain":
+        elif self.goal == 2:
             tdee += 250
-        elif(self.goal.lower() == "maintain"):
+        elif(self.goal == 3):
             tdee = tdee
         
         return round(tdee)
@@ -68,8 +68,3 @@ class Log:
         return burned
 
 
-
-
-food = Log("abi")
-
-food.add_food("chicken salad", 360)

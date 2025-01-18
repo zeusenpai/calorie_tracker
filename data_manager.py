@@ -61,10 +61,9 @@ def load_users():
             users = []
     else:
         users = []
-    
-    return users
-    """df = pd.DataFrame(users)
-    print(df)"""
+
+    df = pd.DataFrame(users)
+    print(df)
 
 def save_logs(self, name, food_items, calories_consumed):
     log_path = f"data/{name}_logs.json"
@@ -93,5 +92,14 @@ def save_logs(self, name, food_items, calories_consumed):
     
 
 def load_logs(user):
-    pass
-
+    log_path = f"data/{user}_logs.json"
+    if os.path.exists(log_path):
+        try:
+            with open(log_path, "r") as file:
+                logs = json.load(file)
+        except (json.JSONDecodeError, IOError):
+            logs = []
+    else:
+        logs = []
+    
+    return logs
