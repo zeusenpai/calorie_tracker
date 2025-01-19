@@ -2,7 +2,6 @@ import json
 import os
 import pandas as pd
 from datetime import date
-import matplotlib.pyplot as plt
 from tabulate import tabulate
 
 # Paths to data
