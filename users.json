@@ -1,0 +1,35 @@
+[
+    {
+        "name": "John",
+        "age": 23,
+        "gender": "M",
+        "height": 168.0,
+        "weight": 70.0,
+        "activity_level": 2,
+        "goal": 3,
+        "bmr": 1640.0,
+        "tdee": 2255
+    },
+    {
+        "name": "Priya",
+        "age": 20,
+        "gender": "F",
+        "height": 158.0,
+        "weight": 45.0,
+        "activity_level": 1,
+        "goal": 2,
+        "bmr": 1176.5,
+        "tdee": 1662
+    },
+    {
+        "name": "Bob",
+        "age": 30,
+        "gender": "m",
+        "height": 170.0,
+        "weight": 60.0,
+        "activity_level": 3,
+        "goal": 2,
+        "bmr": 1517.5,
+        "tdee": 2602
+    }
+]
