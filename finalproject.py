@@ -224,5 +224,5 @@ def main_menu():
         else:
             print("Invalid choice! Please select a valid option.")
 
-if __name__ == "__main__":
-    main_menu()
+
+main_menu()
