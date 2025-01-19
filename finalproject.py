@@ -209,17 +209,12 @@ def main_menu():
             load_users()
         elif choice == "3":
             name = input("Enter user name: ")
-            while 1:
             
-                food = input("Enter food name: ")
-                calories = int(input("Enter calories: "))
-                log = Log(name)
-                log.add_food(food, calories)
-                ch=input("Do you want to continue?y/n:")
-                if ch.lower()== 'n':
-                    break
-                else:
-                    continue
+            food = input("Enter food name: ")
+            calories = int(input("Enter calories: "))
+            log = Log(name)
+            log.add_food(food, calories)
+                
             
         elif choice == "4":
             name = input("Enter user name: ")
